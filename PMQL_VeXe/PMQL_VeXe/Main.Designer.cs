@@ -31,16 +31,16 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.panel2 = new System.Windows.Forms.Panel();
-            this.panelBody = new System.Windows.Forms.Panel();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.label13 = new System.Windows.Forms.Label();
-            this.panel8 = new System.Windows.Forms.Panel();
             this.pDropdown = new System.Windows.Forms.Panel();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.btnDropMenu = new System.Windows.Forms.Button();
+            this.panelBody = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.label13 = new System.Windows.Forms.Label();
+            this.panel8 = new System.Windows.Forms.Panel();
             this.button2 = new System.Windows.Forms.Button();
             this.panel10 = new System.Windows.Forms.Panel();
             this.btn_Home = new System.Windows.Forms.Button();
@@ -66,10 +66,10 @@
             this.txtName = new System.Windows.Forms.Label();
             this.timerDropMenu = new System.Windows.Forms.Timer(this.components);
             this.panel2.SuspendLayout();
+            this.pDropdown.SuspendLayout();
             this.panelBody.SuspendLayout();
             this.panel9.SuspendLayout();
             this.panel8.SuspendLayout();
-            this.pDropdown.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -82,7 +82,6 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
-            this.panel2.Controls.Add(this.pDropdown);
             this.panel2.Controls.Add(this.panelBody);
             this.panel2.Controls.Add(this.tableLayoutPanel1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -91,6 +90,87 @@
             this.panel2.Padding = new System.Windows.Forms.Padding(10);
             this.panel2.Size = new System.Drawing.Size(1369, 673);
             this.panel2.TabIndex = 3;
+            // 
+            // pDropdown
+            // 
+            this.pDropdown.Controls.Add(this.button5);
+            this.pDropdown.Controls.Add(this.button4);
+            this.pDropdown.Controls.Add(this.button3);
+            this.pDropdown.Controls.Add(this.btnDropMenu);
+            this.pDropdown.Location = new System.Drawing.Point(1, 131);
+            this.pDropdown.MaximumSize = new System.Drawing.Size(130, 154);
+            this.pDropdown.MinimumSize = new System.Drawing.Size(130, 43);
+            this.pDropdown.Name = "pDropdown";
+            this.pDropdown.Size = new System.Drawing.Size(130, 43);
+            this.pDropdown.TabIndex = 0;
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.White;
+            this.button5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
+            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button5.Location = new System.Drawing.Point(0, 126);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(130, 37);
+            this.button5.TabIndex = 7;
+            this.button5.Text = "TK bán vé";
+            this.button5.UseVisualStyleBackColor = false;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.White;
+            this.button4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
+            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button4.Location = new System.Drawing.Point(0, 89);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(130, 37);
+            this.button4.TabIndex = 6;
+            this.button4.Text = "TK xe";
+            this.button4.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.White;
+            this.button3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button3.Location = new System.Drawing.Point(0, 43);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(130, 46);
+            this.button3.TabIndex = 5;
+            this.button3.Text = "TK nhân viên";
+            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // btnDropMenu
+            // 
+            this.btnDropMenu.BackColor = System.Drawing.Color.SkyBlue;
+            this.btnDropMenu.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnDropMenu.FlatAppearance.BorderSize = 0;
+            this.btnDropMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDropMenu.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDropMenu.Image = ((System.Drawing.Image)(resources.GetObject("btnDropMenu.Image")));
+            this.btnDropMenu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDropMenu.Location = new System.Drawing.Point(0, 0);
+            this.btnDropMenu.Name = "btnDropMenu";
+            this.btnDropMenu.Size = new System.Drawing.Size(130, 43);
+            this.btnDropMenu.TabIndex = 4;
+            this.btnDropMenu.Text = "Thống Kê";
+            this.btnDropMenu.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnDropMenu.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.btnDropMenu.UseVisualStyleBackColor = false;
+            this.btnDropMenu.Click += new System.EventHandler(this.btnDropMenu_Click);
             // 
             // panelBody
             // 
@@ -135,6 +215,7 @@
             // panel8
             // 
             this.panel8.BackColor = System.Drawing.Color.SkyBlue;
+            this.panel8.Controls.Add(this.pDropdown);
             this.panel8.Controls.Add(this.button2);
             this.panel8.Controls.Add(this.panel10);
             this.panel8.Controls.Add(this.btn_Home);
@@ -145,94 +226,19 @@
             this.panel8.TabIndex = 0;
             this.panel8.Paint += new System.Windows.Forms.PaintEventHandler(this.panel8_Paint);
             // 
-            // pDropdown
-            // 
-            this.pDropdown.Controls.Add(this.button5);
-            this.pDropdown.Controls.Add(this.button4);
-            this.pDropdown.Controls.Add(this.button3);
-            this.pDropdown.Controls.Add(this.btnDropMenu);
-            this.pDropdown.Location = new System.Drawing.Point(10, 246);
-            this.pDropdown.MaximumSize = new System.Drawing.Size(130, 154);
-            this.pDropdown.MinimumSize = new System.Drawing.Size(130, 43);
-            this.pDropdown.Name = "pDropdown";
-            this.pDropdown.Size = new System.Drawing.Size(130, 43);
-            this.pDropdown.TabIndex = 0;
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.White;
-            this.button5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.Location = new System.Drawing.Point(0, 126);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(130, 37);
-            this.button5.TabIndex = 7;
-            this.button5.Text = "TK bán vé";
-            this.button5.UseVisualStyleBackColor = false;
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.White;
-            this.button4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(0, 89);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(130, 37);
-            this.button4.TabIndex = 6;
-            this.button4.Text = "TK xe";
-            this.button4.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.White;
-            this.button3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(0, 43);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(130, 46);
-            this.button3.TabIndex = 5;
-            this.button3.Text = "TK nhân viên";
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // btnDropMenu
-            // 
-            this.btnDropMenu.BackColor = System.Drawing.Color.SkyBlue;
-            this.btnDropMenu.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnDropMenu.FlatAppearance.BorderSize = 0;
-            this.btnDropMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDropMenu.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDropMenu.Image = ((System.Drawing.Image)(resources.GetObject("btnDropMenu.Image")));
-            this.btnDropMenu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDropMenu.Location = new System.Drawing.Point(0, 0);
-            this.btnDropMenu.Name = "btnDropMenu";
-            this.btnDropMenu.Size = new System.Drawing.Size(130, 43);
-            this.btnDropMenu.TabIndex = 4;
-            this.btnDropMenu.Text = "Thống Kê";
-            this.btnDropMenu.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnDropMenu.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.btnDropMenu.UseVisualStyleBackColor = false;
-            this.btnDropMenu.Click += new System.EventHandler(this.btnDropMenu_Click);
-            // 
             // button2
             // 
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button2.Location = new System.Drawing.Point(0, 94);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(131, 40);
             this.button2.TabIndex = 3;
-            this.button2.Text = "Home";
+            this.button2.Text = "Quản Lý Xe";
+            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button2.UseVisualStyleBackColor = true;
             // 
             // panel10
@@ -253,7 +259,7 @@
             this.btn_Home.Name = "btn_Home";
             this.btn_Home.Size = new System.Drawing.Size(131, 40);
             this.btn_Home.TabIndex = 0;
-            this.btn_Home.Text = "Home";
+            this.btn_Home.Text = "Bán Vé";
             this.btn_Home.UseVisualStyleBackColor = true;
             this.btn_Home.Click += new System.EventHandler(this.btn_Home_Click);
             // 
@@ -512,11 +518,11 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Main";
             this.panel2.ResumeLayout(false);
+            this.pDropdown.ResumeLayout(false);
             this.panelBody.ResumeLayout(false);
             this.panel9.ResumeLayout(false);
             this.panel9.PerformLayout();
             this.panel8.ResumeLayout(false);
-            this.pDropdown.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
